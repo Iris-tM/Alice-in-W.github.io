@@ -122,9 +122,9 @@ categoryBar:
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
     - descr: try
-      cover: https://github.com/Iris-tM/Alice-in-W.github.io/blob/hexo/source/img/110632.jpg
+      cover: https://imgse.com/i/ppbsrG9
     - descr: study
-      cover: https://github.com/Iris-tM/Alice-in-W.github.io/blob/hexo/source/img/110632.jpg
+      cover: https://imgse.com/i/ppbstK0
   custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
 
 # hexo-butterfly-swiper
