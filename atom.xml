@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Alice in W</title>
+  
+  <subtitle>It is no use going back to yesterday, because I was a different person then</subtitle>
+  <link href="https://iris-tm.github.io/Alice-in-W.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://iris-tm.github.io/Alice-in-W.github.io/"/>
+  <updated>2023-04-09T02:58:39.855Z</updated>
+  <id>https://iris-tm.github.io/Alice-in-W.github.io/</id>
+  
+  <author>
+    <name>Alice</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>text3</title>
+    <link href="https://iris-tm.github.io/Alice-in-W.github.io/posts/52041.html"/>
+    <id>https://iris-tm.github.io/Alice-in-W.github.io/posts/52041.html</id>
+    <published>2023-04-09T02:02:37.000Z</published>
+    <updated>2023-04-09T02:58:39.855Z</updated>
+    
+    
+    <summary type="html">a experiment 3</summary>
+    
+    
+    
+    <category term="study" scheme="https://iris-tm.github.io/Alice-in-W.github.io/categories/study/"/>
+    
+    
+    <category term="try" scheme="https://iris-tm.github.io/Alice-in-W.github.io/tags/try/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>text2</title>
+    <link href="https://iris-tm.github.io/Alice-in-W.github.io/posts/2952.html"/>
+    <id>https://iris-tm.github.io/Alice-in-W.github.io/posts/2952.html</id>
+    <published>2023-04-08T16:39:38.000Z</published>
+    <updated>2023-04-09T02:58:39.851Z</updated>
+    
+    
+    <summary type="html">A comparative experiment</summary>
+    
+    
+    
+    <category term="try" scheme="https://iris-tm.github.io/Alice-in-W.github.io/categories/try/"/>
+    
+    
+    <category term="study" scheme="https://iris-tm.github.io/Alice-in-W.github.io/tags/study/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>text</title>
+    <link href="https://iris-tm.github.io/Alice-in-W.github.io/posts/51241.html"/>
+    <id>https://iris-tm.github.io/Alice-in-W.github.io/posts/51241.html</id>
+    <published>2023-04-08T16:22:18.000Z</published>
+    <updated>2023-04-09T03:02:45.205Z</updated>
+    
+    <content type="html"><![CDATA[<p>$$<br>e^2&#x3D;100<br>$$</p>]]></content>
+    
+    
+    <summary type="html">a experiment</summary>
+    
+    
+    
+    <category term="study" scheme="https://iris-tm.github.io/Alice-in-W.github.io/categories/study/"/>
+    
+    
+    <category term="try" scheme="https://iris-tm.github.io/Alice-in-W.github.io/tags/try/"/>
+    
+  </entry>
+  
+</feed>
