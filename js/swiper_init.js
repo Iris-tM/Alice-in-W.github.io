@@ -24,3 +24,4 @@ var comtainer = document.getElementById('swiper_container');
       swiper.autoplay.start();
       }
   } else {}
+
