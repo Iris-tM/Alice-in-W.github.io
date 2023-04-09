@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Alice-in-W
-subtitle: '回到昨天毫无用处，因为过去的我和今天有所不同。'
-description: ''
-keywords:
+title: Alice in W
+subtitle: 'It is no use going back to yesterday, because I was a different person then'
+description: '回到昨天毫无用处，因为过去的我和今天有所不同。'
+keywords: moonlight
 author: Alice
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://iris-tm.github.io/Alice-in-W.github.io/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -105,3 +105,42 @@ deploy:
   type: git
   repo: https://github.com/Iris-tM/Alice-in-W.github.io.git
   branch: main
+
+
+# hexo-butterfly-categories-card
+# see https://akilar.top/posts/a9131002/
+# 该插件只能显示http形式的图片。
+categoryBar:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  column: odd # odd：3列 | even：4列
+  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
+  message:
+    - descr: try
+      cover: /img/110632.JPG
+    - descr: study
+      cover: https://tse4-mm.cn.bing.net/th/id/OIP-C.OuM_VKOs5WgQTf7GTmWBSgHaHj?pid=ImgDet&rs=1
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
+
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
+# 该插件只能显示http形式的图片。
+swiper:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper_css: /css/swiper.min.css #swiper css依赖
+  swiper_js: /js/swiper.min.js #swiper js依赖
+  custom_css: /css/swiperstyle.css # 适配主题样式补丁
+  custom_js: /js/swiper_init.js # swiper初始化方法
