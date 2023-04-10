@@ -111,7 +111,7 @@ deploy:
 # see https://akilar.top/posts/a9131002/
 # 该插件只能显示http形式的图片。
 categoryBar:
-  enable: true # 开关
+  enable: false # 开关
   priority: 5 #过滤器优先权
   enable_page: all # 应用页面
   layout: # 挂载容器类型
@@ -122,9 +122,9 @@ categoryBar:
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
     - descr: try
-      cover: https://imgse.com/i/ppbsrG9
+      cover: 暂无
     - descr: study
-      cover: https://imgse.com/i/ppbstK0
+      cover: 暂无
   custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
 
 # hexo-butterfly-swiper
@@ -144,3 +144,34 @@ swiper:
   swiper_js: /js/swiper.min.js #swiper js依赖
   custom_css: /css/swiperstyle.css # 适配主题样式补丁
   custom_js: /js/swiper_init.js # swiper初始化方法
+
+# 外挂标签的引入
+# npm install hexo-butterfly-tag-plugins-plus --save
+# npm uninstall hexo-renderer-marked --save
+# npm install hexo-renderer-kramed --save
+# tag-plugins-plus
+# see https://akilar.top/posts/615e2dec/
+tag_plugins:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  issues: false #issues标签依赖注入开关
+  link:
+    placeholder: /img/favicon.png #link_card标签默认的图标图片
+  CDN:
+    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
+    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
+    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
+    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+# Security
+encrypt: # hexo-blog-encrypt
+  abstract: 有东西被加密了, 请输入密码查看.
+  message: 您好, 这里需要密码.
+  tags:
+  - {name: tagName, password: 密码A}
+  - {name: tagName, password: 密码B}
+  theme: flip
+  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.

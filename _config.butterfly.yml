@@ -18,7 +18,7 @@ nav:
   display_title: true
   fixed: false # fixed navigation bar
 
-# Code Blocks (代碼相關)
+# Code Blocks (代码相关)
 # --------------------------------------
 
 highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
@@ -29,19 +29,20 @@ highlight_height_limit: false # unit: px
 code_word_wrap: false
 
 # copy settings
-# copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
+# copyright: Add the copyright information after copied content (复制的内容后面加上版权信息)
 copy:
   enable: true
   copyright:
     enable: true
     limit_count: 50
 
-# social settings (社交圖標設置)
+# social settings (社交图标设置)
 # formal:
 # icon: link || the description
+# https://fontawesome.com/
 social:
   fab fa-github: https://github.com/Iris-tM || Github
-  fas fa-envelope: zdn0167@163.com || Email
+  fas fa-envelope: mailto:Alice1w2237@gmail.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -75,12 +76,12 @@ docsearch:
   indexName:
   option:
 
-# Math (數學)
+# Math (数学)
 # --------------------------------------
 # About the per_page
-# if you set it to true, it will load mathjax/katex script in each page (true 表示每一頁都加載js)
+# if you set it to true, it will load mathjax/katex script in each page (true 表示每一页都加载js)
 # if you set it to false, it will load mathjax/katex script according to your setting (add the 'mathjax: true' in page's front-matter)
-# (false 需要時加載，須在使用的 Markdown Front-matter 加上 mathjax: true)
+# (false 需要时加载，须在使用的 Markdown Front-matter 加上 mathjax: true)
 
 # MathJax
 mathjax:
@@ -93,13 +94,13 @@ katex:
   per_page: false
   hide_scrollbar: true
 
-# Image (圖片設置)
+# Image (图片设置)
 # --------------------------------------
 
-# Favicon（網站圖標）
+# Favicon（网站图标）
 favicon: /img/favicon.png
 
-# Avatar (頭像)
+# Avatar (头像)
 avatar:
   img: /img/avatar.png
   effect: false
@@ -108,7 +109,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/IMG_1880.jpg
+index_img:
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: /img/IMG_1880.jpg
@@ -135,18 +136,18 @@ category_img:
 category_per_img:
 
 cover:
-  # display the cover or not (是否顯示文章封面)
+  # display the cover or not (是否显示文章封面)
   index_enable: true
   aside_enable: true
   archives_enable: true
-  # the position of cover in home page (封面顯示的位置)
+  # the position of cover in home page (封面显示的位置)
   # left/right/both
   position: both
-  # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
+  # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    - https://imgse.com/i/ppbs5PH
+    - https://cdn.jsdelivr.net/gh/Iris-tM/img@main/hexo/IMG_2069.JPG
 
-# Replace Broken Images (替換無法顯示的圖片)
+# Replace Broken Images (替换无法展示的图片)
 error_img:
   flink: /img/friend_404.gif
   post_page: /img/404.jpg
@@ -171,7 +172,7 @@ post_meta:
     tags: true # true or false 文章頁是否顯示標籤
     label: true # true or false 顯示描述性文字
 
-# wordcount (字數統計)
+# wordcount (字数统计)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 # 插件：npm install hexo-wordcount --save
 wordcount:
@@ -251,11 +252,11 @@ photofigcaption: false
 # false: disable pagination
 post_pagination: 2
 
-# Displays outdated notice for a post (文章過期提醒)
+# Displays outdated notice for a post (文章过期提醒)
 noticeOutdate:
-  enable: false
-  style: flat # style: simple/flat
-  limit_day: 500 # When will it be shown
+  enable: true
+  style: simple # style: simple/flat
+  limit_day: 177 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
@@ -302,7 +303,7 @@ disqus:
   apikey: # For newest comments widget
 
 # Alternative Disqus - Render comments with Disqus API
-# DisqusJS 評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
+# DisqusJS 评论系统，可以实现在网路审查地区载入 Disqus 评论列表，兼容原版
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
   shortname:
@@ -503,9 +504,9 @@ site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
-  theme_color:
-    enable: true
-    main: "#49b1f5"
+  theme_color:  #没有起作用？
+    enable: false
+    main: "#8F74AD"
     paginator: "#00c4b6" # 松石绿
     button_hover: "#FF7242" # 橙色
     text_selection: "#00c4b6" 
@@ -515,9 +516,9 @@ site_verification:
     code_foreground: "#F47466" #橘红色
     code_background: "rgba(27, 31, 35, .05)" #黑色
     toc_color: "#00c4b6"  
-    blockquote_padding_color: "#49b1f5" #湖蓝色
-    blockquote_background_color: "#49b1f5"
-    scrollbar_color: "#49b1f5"
+    blockquote_padding_color: "#8F74AD" #湖蓝色
+    blockquote_background_color: "#8F74AD"
+    scrollbar_color: "#8F74AD"
     meta_theme_color_light: "ffffff" #白色
     meta_theme_color_dark: "#0d0d0d" #黑色
 
@@ -537,9 +538,10 @@ tag_ui: index # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url("../img/IMG_2068.JPG")
+background: url("../img/IMG_1880.jpg")
 # 黑暗主题下文件的位置
 # 配置见https://moonshuo.cn/posts/1481.html
+background_dark: url("../img/IMG_2069.jpg")
 
 # Footer Background
 footer_bg: false
@@ -691,7 +693,7 @@ aside:
       link: https://github.com/Iris-tM
   card_announcement:
     enable: true
-    content: 欢迎来到我的博客。
+    content: 欢迎来到我的网站。
   card_recent_post:
     enable: false
     limit: 5 # if set 0 will show all
@@ -907,10 +909,20 @@ inject:
     # load
       - <link rel="stylesheet" href="css/loading.css">
     # 自定义css
-      - <link rel="stylesheet" href="/css/custom.css">
+      - <link rel="stylesheet" href="css/custom.css">
+    # 星光背景特效
+      - <link rel="stylesheet" href="css/universe.css">
+    # 帧率检测
+      - <span id="fps"></span>
   bottom:
     - <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-    - <script src="/js/cursor.js"></script>
+    - <script src="js/cursor.js"></script>
+    - <script src="js/custom.js"></script>
+    - <canvas id="universe"></canvas>
+    - <script defer src="js/universe.js"></script>
+    # - <canvas id="snow"></canvas> 
+    # - <script async src="/js/snow.js"></script>
+    - <script async src="/js/fps.js"></script>
 
 
 # CDN
@@ -989,3 +1001,4 @@ CDN:
     # artalk_js:
     # artalk_css:
     # busuanzi:
+
