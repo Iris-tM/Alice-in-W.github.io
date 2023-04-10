@@ -59,9 +59,9 @@
     <link href="https://iris-tm.github.io/Alice-in-W.github.io/posts/51241.html"/>
     <id>https://iris-tm.github.io/Alice-in-W.github.io/posts/51241.html</id>
     <published>2023-04-08T16:22:18.000Z</published>
-    <updated>2023-04-09T16:38:17.544Z</updated>
+    <updated>2023-04-10T03:40:16.229Z</updated>
     
-    <content type="html"><![CDATA[<p>插入图片：<img src="https://imgse.com/i/ppbsrG9"></p><p>$$<br>e^2&#x3D;100<br>$$</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><script type="math/tex; mode=display">e^2=100</script>]]></content>
     
     
     <summary type="html">a experiment</summary>
