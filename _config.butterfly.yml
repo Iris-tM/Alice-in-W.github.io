@@ -541,7 +541,7 @@ tag_ui: index # 留空或 index
 background: url("../img/IMG_1880.jpg")
 # 黑暗主题下文件的位置
 # 配置见https://moonshuo.cn/posts/1481.html
-background_dark: url("../img/IMG_2069.jpg")
+background_dark: url("../img/moon.jpg")
 
 # Footer Background
 footer_bg: false
