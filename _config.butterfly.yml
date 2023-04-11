@@ -904,8 +904,8 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     # 诗词
-      - <link rel="stylesheet" type="text/css" href="/css/heoMainColor.css">
-      - <link rel="stylesheet" type="text/css" href="/css/poem.css">
+      - <link rel="stylesheet" type="text/css" href="css/heoMainColor.css">
+      - <link rel="stylesheet" type="text/css" href="css/poem.css">
     # load
       - <link rel="stylesheet" href="css/loading.css">
     # 自定义css
@@ -921,8 +921,8 @@ inject:
     - <canvas id="universe"></canvas>
     - <script defer src="js/universe.js"></script>
     # - <canvas id="snow"></canvas> 
-    # - <script async src="/js/snow.js"></script>
-    - <script async src="/js/fps.js"></script>
+    # - <script async src="js/snow.js"></script>
+    - <script async src="js/fps.js"></script>
 
 
 # CDN
