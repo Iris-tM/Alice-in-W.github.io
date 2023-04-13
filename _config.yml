@@ -106,27 +106,6 @@ deploy:
   repo: https://github.com/Iris-tM/Alice-in-W.github.io.git
   branch: main
 
-
-# hexo-butterfly-categories-card
-# see https://akilar.top/posts/a9131002/
-# 该插件只能显示http形式的图片。
-categoryBar:
-  enable: false # 开关
-  priority: 5 #过滤器优先权
-  enable_page: all # 应用页面
-  layout: # 挂载容器类型
-    type: id
-    name: recent-posts
-    index: 0
-  column: odd # odd：3列 | even：4列
-  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
-  message:
-    - descr: try
-      cover: 暂无
-    - descr: study
-      cover: 暂无
-  custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
-
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
 # 该插件只能显示http形式的图片。
